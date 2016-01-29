@@ -1,6 +1,8 @@
 # Android Studio Issue Repo
 
-This is a sample app for displaying a particlar issue with Android Studio to the Android tools team. 
+This is a sample app for displaying a particlar issue with Android Studio to the Android tools team:
+
+https://code.google.com/p/android/issues/detail?id=199892
 
 ### Overview
 
