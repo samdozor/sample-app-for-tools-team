@@ -27,9 +27,10 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.+'
 
-    //by using this @aar dependency, no sources are downloaded or viewable
-    compile 'com.mparticle:android-core-test:4.2.1@aar'
+    //Version 4.3.0, AAR, *without* proguard, sources *are* shown in the IDE
+    compile 'com.mparticle:android-core-test:4.3.0@aar'
 
-    //by using this @jar dependency, sources are downloaded or viewable
-    //compile 'com.mparticle:android-core-test:4.2.1@jar'
+    //Version 4.2.1, AAR, *with* proguard, sources *are not* shown in the IDE
+    //compile 'com.mparticle:android-core-test:4.3.0@aar'
+
 }
